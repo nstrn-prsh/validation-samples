@@ -65,6 +65,8 @@ function validationEmailThree(e){
         e.target.classList.add('is-invalid')
         e.target.classList.remove('is-valid')
     }
+    
+//validationEmailFour= /^[a-z]{1}[a-z0-9_\.]{2,}@[a-z]{3,}\.[a-z]{2,5}$/i
 }
 
 function validationPhone(e){
